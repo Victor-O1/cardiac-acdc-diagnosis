@@ -1,0 +1,233 @@
+{
+  "training": {
+    "dir": "/content/drive/MyDrive/cardiac_project/data/acdc/training",
+    "n_patients": 100,
+    "info_cfg_keys": {
+      "ED": 100,
+      "ES": 100,
+      "Group": 100,
+      "Height": 100,
+      "NbFrame": 100,
+      "Weight": 100
+    },
+    "group_counts": {
+      "DCM": 20,
+      "HCM": 20,
+      "MINF": 20,
+      "NOR": 20,
+      "RV": 20
+    },
+    "patients_with_4d_file": 0,
+    "n_distinct_shapes": 57,
+    "most_common_shapes": [
+      [
+        [
+          216,
+          256,
+          10
+        ],
+        16
+      ],
+      [
+        [
+          216,
+          256,
+          9
+        ],
+        16
+      ],
+      [
+        [
+          216,
+          256,
+          8
+        ],
+        14
+      ],
+      [
+        [
+          256,
+          216,
+          9
+        ],
+        10
+      ],
+      [
+        [
+          256,
+          216,
+          10
+        ],
+        8
+      ],
+      [
+        [
+          208,
+          256,
+          8
+        ],
+        8
+      ],
+      [
+        [
+          216,
+          256,
+          7
+        ],
+        8
+      ],
+      [
+        [
+          208,
+          256,
+          10
+        ],
+        6
+      ]
+    ],
+    "n_slices_range": [
+      6,
+      18
+    ],
+    "spacing_min_xyz": [
+      0.703,
+      0.703,
+      5.0
+    ],
+    "spacing_max_xyz": [
+      1.92,
+      1.92,
+      10.0
+    ],
+    "axis_with_largest_spacing_counts": {
+      "2": 200
+    },
+    "image_dtypes": {
+      "int16": 70,
+      "float32": 128,
+      "uint8": 2
+    },
+    "mask_label_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "problems": []
+  },
+  "testing": {
+    "dir": "/content/drive/MyDrive/cardiac_project/data/acdc/testing",
+    "n_patients": 50,
+    "info_cfg_keys": {
+      "ED": 50,
+      "ES": 50,
+      "Group": 50,
+      "Height": 50,
+      "NbFrame": 50,
+      "Weight": 50
+    },
+    "group_counts": {
+      "DCM": 10,
+      "NOR": 10,
+      "MINF": 10,
+      "HCM": 10,
+      "RV": 10
+    },
+    "patients_with_4d_file": 0,
+    "n_distinct_shapes": 32,
+    "most_common_shapes": [
+      [
+        [
+          216,
+          256,
+          9
+        ],
+        12
+      ],
+      [
+        [
+          256,
+          216,
+          10
+        ],
+        10
+      ],
+      [
+        [
+          216,
+          256,
+          8
+        ],
+        8
+      ],
+      [
+        [
+          232,
+          256,
+          10
+        ],
+        6
+      ],
+      [
+        [
+          216,
+          256,
+          10
+        ],
+        6
+      ],
+      [
+        [
+          256,
+          216,
+          9
+        ],
+        4
+      ],
+      [
+        [
+          216,
+          256,
+          11
+        ],
+        4
+      ],
+      [
+        [
+          208,
+          256,
+          9
+        ],
+        2
+      ]
+    ],
+    "n_slices_range": [
+      6,
+      21
+    ],
+    "spacing_min_xyz": [
+      1.367,
+      1.367,
+      5.0
+    ],
+    "spacing_max_xyz": [
+      1.953,
+      1.953,
+      10.0
+    ],
+    "axis_with_largest_spacing_counts": {
+      "2": 100
+    },
+    "image_dtypes": {
+      "float32": 98,
+      "int16": 2
+    },
+    "mask_label_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "problems": []
+  }
+}

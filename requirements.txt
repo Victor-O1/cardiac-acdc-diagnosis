@@ -1,0 +1,8 @@
+segmentation-models-pytorch
+nibabel
+xgboost
+gradio
+tabulate
+huggingface_hub
+python-docx
+python-pptx

@@ -1,0 +1,5 @@
+model,accuracy,macro_f1
+CNN (image),0.68,0.68
+XGBoost (U-Net features),0.9,0.9
+Ensemble (mean prob.),0.86,0.858
+"XGBoost (expert-mask features, upper bound)",0.86,0.86
